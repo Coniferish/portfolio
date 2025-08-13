@@ -1,5 +1,7 @@
-// ABOUTME: [Home page for portfolio with sections: About, Skills, Projects, Contact]
+// ABOUTME: [Home page for portfolio with sections: About, Skills, Projects, GitHub, Contact]
 // ABOUTME: [Educational structure-only edit; placeholder content for iterative learning]
+
+import GitHubPortfolio from './components/GitHubPortfolio';
 
 export default function Home() {
   return (
@@ -113,6 +115,14 @@ export default function Home() {
             </ul>
           </article>
         </div>
+      </section>
+
+      <section id="github" className="mb-16">
+        <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-4">GitHub Portfolio</h2>
+        <p className="text-base leading-7 text-foreground/90 mb-6">
+          Here&apos;s a live feed of my recent GitHub repositories, showcasing my latest code contributions and projects.
+        </p>
+        <GitHubPortfolio username="coniferish" />
       </section>
 
       <section id="contact" className="mb-8">
