@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       <section id="projects" className="mb-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-4">Experience & Projects</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-4">Recent Experience & Projects</h2>
         <div className="space-y-6">
           <article className="rounded-lg border border-foreground/10 p-6">
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3">
